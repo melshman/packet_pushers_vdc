@@ -1,7 +1,7 @@
 router_id: 10.255.255.1
 # ethernet_interfaces:
 # testing failure
-ethernet_interfaces
+ethernet_interfaces:
   Ethernet1:
     description: sea-eos-1 Mgmt
     state: no shutdown
