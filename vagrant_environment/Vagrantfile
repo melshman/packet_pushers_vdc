@@ -158,7 +158,7 @@ Vagrant.configure(2) do |config|
             node.ssh.insert_key = machine[:sync_ssh]
 
             # Enable/disable auto_update per device
-            node.vbguest.auto_update = machine[:auto_update]
+            # node.vbguest.auto_update = machine[:auto_update]
 
             # If/For (private) net in networks; this is the internal to vbox switching we want to setup
             if machine[:networks]
